@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Dados: Usuario vs Máquina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Juego de Dados: Usuario vs Máquina</h1>
+    <div class="game-container">
+        <div class="dice-container" id="user-side">
+            <h2>Usuario</h2>
+            <div id="userDice1" class="dice">🎲</div>
+            <p>Puntaje del Usuario: <span id="userScore">0</span></p>
+        </div>
+
+        <div class="dice-container" id="machine-side">
+            <h2>Máquina</h2>
+            <div id="machineDice1" class="dice">🎲</div>
+            <p>Puntaje de la Máquina: <span id="machineScore">0</span></p>
+        </div>
+    </div>
+
+    <button id="playButton" onclick="playGame()">Lanzar Dados</button>
+    <p id="message"></p>
+    <footer>hecho por Manfred</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
